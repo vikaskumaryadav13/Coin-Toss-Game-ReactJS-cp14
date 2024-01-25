@@ -1,0 +1,86 @@
+/* Write your CSS here */
+.game-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 45px;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+}
+.game-app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 85%;
+  max-width: 500px;
+  background-color: #ffffff;
+  padding: 22px;
+  border-radius: 18px;
+}
+@media screen and (min-width: 768px) {
+  .game-app-container {
+    margin-top: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+.game-app-name {
+  font-family: 'Roboto';
+  font-size-adjust: 35px;
+  color: #a35200;
+}
+@media screen and (min-width: 768px) {
+  .game-app-name {
+    font-size: 45px;
+  }
+}
+.heads-tails-text {
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-top: 0;
+  font-weight: 400;
+  color: #334155;
+}
+.toss-result-image {
+  width: 150px;
+}
+@media screen and (min-width: 768px) {
+  .toss-result-image {
+    width: 180px;
+  }
+}
+.toss-button {
+  color: #a35200;
+  font-weight: 500;
+  margin-top: 16px;
+  border: none;
+  background-color: #f9d423;
+  border-radius: 10px;
+  padding: 12px 20px;
+  cursor: pointer;
+  outline: none;
+}
+.game-counts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 18px;
+}
+.toss-counts-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 22px;
+  color: #334155;
+}
+@media screen and (min-width: 768px) {
+  .game-counts-container {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .toss-counts-text {
+    font-size: 18px;
+    margin-right: 22px;
+    margin-left: 22px;
+  }
+}
